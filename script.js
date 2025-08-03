@@ -1,7 +1,6 @@
 // Product data
 const products = [
     { name: "Apple", image: "images/apple.jpg", price: "120/kg", category: "fruit" },
-    { name: "Banana", image: "images/banana.jpg", price: "45/dozen", category: "fruit" },
     { name: "Carrot", image: "images/carrot.jpg", price: "40/kg", category: "vegetable" },
     { name: "Potato", image: "images/potato.jpg", price: "25/kg", category: "vegetable" },
     { name: "Tomato", image: "images/tomato.jpg", price: "30/kg", category: "vegetable" },
@@ -14,7 +13,6 @@ const products = [
 // Price comparison data
 const priceComparison = {
     "Apple": { store1: "₹120/kg", store2: "₹110/kg", store3: "₹130/kg" },
-    "Banana": { store1: "₹45/dozen", store2: "₹40/dozen", store3: "₹50/dozen" },
     "Carrot": { store1: "₹40/kg", store2: "₹35/kg", store3: "₹45/kg" },
     "Potato": { store1: "₹25/kg", store2: "₹22/kg", store3: "₹28/kg" },
     "Tomato": { store1: "₹30/kg", store2: "₹25/kg", store3: "₹35/kg" },
